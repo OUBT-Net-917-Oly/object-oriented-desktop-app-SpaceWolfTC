@@ -29,7 +29,11 @@ namespace EmployeeTracker
             EmployeeForm employeeForm = new EmployeeForm(_dataStore.Employees);
             employeeForm.Show();
         }
-
+        private void btnAddProject_Click(object sender, EventArgs e)
+        {
+            s projectForm = new s(_dataStore.Projects);
+            projectForm.Show();
+        }
         private void btnViewEmployee_Click(object sender, EventArgs e)
         {
             // clear the list

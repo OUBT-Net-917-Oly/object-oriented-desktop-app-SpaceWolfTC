@@ -71,8 +71,9 @@
             // txtFirst
             // 
             this.txtFirst.Location = new System.Drawing.Point(96, 7);
-            this.txtFirst.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtFirst.Margin = new System.Windows.Forms.Padding(2);
             this.txtFirst.Name = "txtFirst";
+            this.txtFirst.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.txtFirst.Size = new System.Drawing.Size(136, 22);
             this.txtFirst.TabIndex = 3;
             this.txtFirst.TextChanged += new System.EventHandler(this.txtFirst_TextChanged);
@@ -80,7 +81,7 @@
             // txtLast
             // 
             this.txtLast.Location = new System.Drawing.Point(96, 42);
-            this.txtLast.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtLast.Margin = new System.Windows.Forms.Padding(2);
             this.txtLast.Name = "txtLast";
             this.txtLast.Size = new System.Drawing.Size(131, 22);
             this.txtLast.TabIndex = 4;
@@ -89,7 +90,7 @@
             // dtHireDate
             // 
             this.dtHireDate.Location = new System.Drawing.Point(96, 75);
-            this.dtHireDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtHireDate.Margin = new System.Windows.Forms.Padding(2);
             this.dtHireDate.Name = "dtHireDate";
             this.dtHireDate.Size = new System.Drawing.Size(241, 22);
             this.dtHireDate.TabIndex = 5;
@@ -98,7 +99,7 @@
             // btnSave
             // 
             this.btnSave.Location = new System.Drawing.Point(304, 124);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(119, 34);
             this.btnSave.TabIndex = 6;
@@ -119,7 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(428, 164);
+            this.ClientSize = new System.Drawing.Size(428, 218);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.dtHireDate);
@@ -128,7 +129,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EmployeeForm";
             this.Text = "Employee";
             this.ResumeLayout(false);
