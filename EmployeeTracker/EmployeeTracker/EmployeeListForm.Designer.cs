@@ -34,6 +34,8 @@
             this.btnAddEmployee = new System.Windows.Forms.Button();
             this.btnViewEmployee = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lstProjects = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -69,10 +71,10 @@
             // 
             // btnAddEmployee
             // 
-            this.btnAddEmployee.Location = new System.Drawing.Point(81, 350);
+            this.btnAddEmployee.Location = new System.Drawing.Point(21, 346);
             this.btnAddEmployee.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddEmployee.Name = "btnAddEmployee";
-            this.btnAddEmployee.Size = new System.Drawing.Size(122, 29);
+            this.btnAddEmployee.Size = new System.Drawing.Size(122, 33);
             this.btnAddEmployee.TabIndex = 3;
             this.btnAddEmployee.Text = "Add Employee";
             this.btnAddEmployee.UseVisualStyleBackColor = true;
@@ -80,7 +82,7 @@
             // 
             // btnViewEmployee
             // 
-            this.btnViewEmployee.Location = new System.Drawing.Point(224, 101);
+            this.btnViewEmployee.Location = new System.Drawing.Point(148, 346);
             this.btnViewEmployee.Name = "btnViewEmployee";
             this.btnViewEmployee.Size = new System.Drawing.Size(131, 33);
             this.btnViewEmployee.TabIndex = 4;
@@ -90,18 +92,38 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(243, 350);
+            this.button1.Location = new System.Drawing.Point(368, 346);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 29);
+            this.button1.Size = new System.Drawing.Size(133, 33);
             this.button1.TabIndex = 5;
             this.button1.Text = "Add Project";
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(352, 60);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 17);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Projects";
+            // 
+            // lstProjects
+            // 
+            this.lstProjects.FormattingEnabled = true;
+            this.lstProjects.ItemHeight = 16;
+            this.lstProjects.Location = new System.Drawing.Point(355, 101);
+            this.lstProjects.Name = "lstProjects";
+            this.lstProjects.Size = new System.Drawing.Size(201, 228);
+            this.lstProjects.TabIndex = 8;
             // 
             // EmployeeListForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(608, 400);
+            this.Controls.Add(this.lstProjects);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnViewEmployee);
             this.Controls.Add(this.btnAddEmployee);
@@ -124,6 +146,8 @@
         private System.Windows.Forms.Button btnAddEmployee;
         private System.Windows.Forms.Button btnViewEmployee;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ListBox lstProjects;
     }
 }
 
